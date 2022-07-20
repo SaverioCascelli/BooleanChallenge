@@ -46,21 +46,26 @@ section>h1{
   margin:0;
 }
 
-.medium-charge{
+.charge{
+  height: 2em;
+  border-radius: 5px;
+}
+
+.medium{
   height: 2em;
   border-radius: 5px;
   margin-right: 65%;
   background-color: orange;
 }
 
-.full-charge{
+.full{
   height: 2em;
   border-radius: 5px;
   background-color: green;
   margin-right: 40%;
 }
 
-.low-charge{
+.low{
   height: 2em;
   border-radius: 5px;
   background-color: darkred;
