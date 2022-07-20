@@ -1,0 +1,68 @@
+body{
+  background-image: url(immagini/background.jpg);
+  background-size: 100%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+.container{
+  border-radius: 10px;
+  background-color:hsla(0,0%,0%,.4);
+  margin: 2% 18%;
+  padding: 4% 6%;
+
+}
+
+header,nav{
+  text-align: center;
+}
+
+nav{
+  background-color: lime;
+  padding: 1% 1%;
+
+}
+
+.logo{
+  width: 24%;
+}
+
+.statement{
+  color: lime;
+  font-size: 30px;
+}
+
+main{
+  color: white;
+}
+
+section{
+  margin-top:3%;
+}
+
+section>h1{
+  display: inline-block;
+  padding: 0;
+  margin:0;
+}
+
+.medium-charge{
+  height: 2em;
+  border-radius: 5px;
+  margin-right: 65%;
+  background-color: orange;
+}
+
+.full-charge{
+  height: 2em;
+  border-radius: 5px;
+  background-color: green;
+  margin-right: 40%;
+}
+
+.low-charge{
+  height: 2em;
+  border-radius: 5px;
+  background-color: darkred;
+  margin-right: 80%;
+}
